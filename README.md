@@ -14,7 +14,7 @@ repository.
 
 ## Hardware features
 
-- ESP12-E/F module with ESP8266 SoC and 4 MBit flash memory
+- ESP12-E/F module with ESP8266 SoC and 4 MB flash memory
 - VS23S010 video controller with 128k RAM and composite video output in PAL or NTSC
 - 5-bit PCM sound from I2S controller
 - MicroSD card slot
@@ -128,3 +128,10 @@ solder wire and side cutters, without fancy tools, mad soldering skills and
 with only a minimal amount of patience:
 
 [![Assembling the BASIC Engine](http://img.youtube.com/vi/DTTEZJDEUIA/0.jpg)](http://www.youtube.com/watch?v=DTTEZJDEUIA "BASIC Engine Soldering")
+
+## PCB Errata
+
+Revision 1 of the PCB contains two errors:
+
+- R6 value is given as "22R", should be "75R".
+- C3 and C4 values are given as "10p", should be "56p".
