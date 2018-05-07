@@ -1,46 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:basicengine-rescue
 LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP8266
-LIBS:NXP
-LIBS:nxp
-LIBS:VS23S010
-LIBS:ab2_7segment
-LIBS:ab2_audio
-LIBS:ab2_usb
-LIBS:reg33
-LIBS:psx
 LIBS:basicengine-cache
 EELAYER 25 0
 EELAYER END
@@ -543,12 +502,12 @@ $EndComp
 Text Label 6900 3750 2    60   ~ 0
 GND
 $Comp
-L CP C9
+L C C9
 U 1 1 59C65936
 P 7300 3450
 F 0 "C9" H 7325 3550 50  0000 L CNN
 F 1 "10u" H 7325 3350 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2.5_CopperClear" H 7338 3300 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7338 3300 50  0001 C CNN
 F 3 "" H 7300 3450 50  0001 C CNN
 	1    7300 3450
 	0    -1   -1   0   
@@ -730,23 +689,23 @@ Wire Wire Line
 Wire Wire Line
 	4650 5500 5650 5500
 $Comp
-L CP C11
+L C C11
 U 1 1 59C68B94
 P 9900 5650
 F 0 "C11" H 9925 5750 50  0000 L CNN
-F 1 "220u" H 9925 5550 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2.5_CopperClear" H 9938 5500 50  0001 C CNN
+F 1 "22u" H 9925 5550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9938 5500 50  0001 C CNN
 F 3 "" H 9900 5650 50  0001 C CNN
 	1    9900 5650
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C12
+L C C12
 U 1 1 59C68C0B
 P 10700 5650
 F 0 "C12" H 10725 5750 50  0000 L CNN
-F 1 "220u" H 10725 5550 50  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2.5_CopperClear" H 10738 5500 50  0001 C CNN
+F 1 "22u" H 10725 5550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10738 5500 50  0001 C CNN
 F 3 "" H 10700 5650 50  0001 C CNN
 	1    10700 5650
 	1    0    0    -1  
